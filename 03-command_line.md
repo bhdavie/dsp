@@ -101,8 +101,11 @@ we would get the following output:
 
 Now lets use 'xargs' to split the outputs into two items per line:echo 1 2 3 4 5 6| xargs -n 2
 we would get the following output:
+
 1 2
+
 3 4
+
 5 6
 
 
