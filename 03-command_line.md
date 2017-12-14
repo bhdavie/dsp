@@ -21,14 +21,23 @@ Here's a list of items with which you should be familiar:
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
 Show current working directory path: pwd
+
 Create a directory: mkdir FILENAME
+
 Deleting a directory:  rm -r directoryName
+
 Creating a file using the 'touch' command: touch filename.txt
+
 Deleting a file: rm filename.txt
+
 Renaming a file mv old_filename.txt new_filename.txt
+
 Listing hidden files: ls -a
+
 Copying a file from one directory to another: cp sourceDir/file.txt destinationDir
+
 Additional: copy all files in working directory into different directory: cp * destinationDir/
+
 Additional: sort each line of a file name alphabetically, printing it to standard output: sort filename.txt
 
 
@@ -47,12 +56,19 @@ What do the following commands do:
 `ls -Glp`  
 
 'ls': lists all files and directories in working directory
+
 'ls  -a': lists all files and directories including hidden files
+
 'ls -l': lists all the content of a directory in long format
+
 'ls -lh': lists all the content of a directory in long format with readable file size
+
 'ls -lah': lists all the content of a directory, including hidden files, in long format with readable file size
+
 'ls -t': order files and directories by the time they were last modified
-'ls -Glp': lists all the content of a directory in long format while inhibiting the display of group information. Also, the command will indicate directories within the directories with a '/' ad the end.
+
+'ls -Glp': lists all the content of a directory in long format while inhibiting the display of group information. Also, the command will 
+indicate directories within the directory with a '/' ad the end.
 
 
 ---
@@ -62,7 +78,9 @@ What do the following commands do:
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
 1. 'ls -r': displays files in reverse order
+
 2. 'ls -d': displays only directories
+
 3. 'ls -c': displays files by file timestamp
 
 ---
